@@ -1,0 +1,48 @@
+/* 
+url-loader and file-loader modules has to be installed
+*/
+
+@font-face {
+  font-family: 'FontAwesomeReg';
+  src: url('./assets/fonts/fa-regular-400.woff2') format('woff2'),
+    url('./assets/fonts/fa-regular-400.woff') format('woff'),
+    url('./assets/fonts/fa-regular-400.svg') format('svg'),
+    url('./assets/fonts/fa-regular-400.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FontAwesomeSolid';
+  src: url('./assets/fonts/fa-solid-900.woff2') format('woff2'),
+    url('./assets/fonts/fa-solid-900.woff') format('woff'),
+    url('./assets/fonts/fa-solid-900.svg') format('svg'),
+    url('./assets/fonts/fa-solid-900.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('./assets/fonts/open-sans-v17-latin-regular.woff') format('woff2'),
+    url('./assets/fonts/open-sans-v17-latin-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./assets/fonts/roboto-v20-latin-regular.woff') format('woff2'),
+    url('./assets/fonts/roboto-v20-latin-regular.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'jira';
+  src: url('./assets/fonts/jira.woff') format('truetype'),
+    url('./assets/fonts/jira.ttf') format('woff'), url('./assets/fonts/jira.svg#jira') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
